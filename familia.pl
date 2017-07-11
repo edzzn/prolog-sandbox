@@ -43,8 +43,6 @@ esposos(karen, colin).
 esposos(janice, chris).
 esposos(peter, jan).
 
-
-
  /* X es abuelo de Y - No distingue genero*/
 abuelo(X, Y) :- padres(J, K, Y),
     			( padres(_, X, J); padres(_, X,K);
